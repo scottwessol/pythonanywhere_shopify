@@ -7,9 +7,6 @@ import pandas as pd
 def init_shopify():
     access_token = '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'
 
-    API_KEY = '773c224ef1324777a9e37b1ca0001e89'
-    API_SECRET = '0d00f9e555eb3574eb43767ea5bc0496'
-
     shopify.Session.setup(api_key=API_KEY, secret=API_SECRET)
 
     shop_url = 'fzspray.myshopify.com'
